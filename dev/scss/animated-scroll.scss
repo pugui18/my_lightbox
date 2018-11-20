@@ -1,0 +1,27 @@
+
+body{
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animated-scroll_menu{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+& li a{
+  text-decoration: none;
+}
+}
+
+li{
+  margin: 1em;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.animation-scroll_content{
+  padding: 4em;
+}

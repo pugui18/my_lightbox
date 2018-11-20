@@ -1,0 +1,11 @@
+extends templates/template
+block main
+    h1(style="color:crimson") Lightbox Gallery
+    .gallery-container#gallery-container
+        - var n = 1
+        while n <= 12
+            .gallery-item                                       
+                img(width="200px" height="200px" src="img/gallery-short-"+n+".jpg" 
+                alt="imagens-felipes" + n).gallery-img.size-img
+            -n++
+    script(src="js/lightbox.js")
